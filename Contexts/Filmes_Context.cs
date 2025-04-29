@@ -23,7 +23,7 @@ namespace api_filmes_senai.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=ROQUE; Database=filmes_senai; Integrated Security=True; TrustServerCertificate=true;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-U8LA1O3\\SQLEXPRESS; Database=filmes; User ID=sa; Password=Senai@134; TrustServerCertificate=true;");
             }
         }
     }
